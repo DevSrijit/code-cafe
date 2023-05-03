@@ -105,10 +105,9 @@ body {
   color: green;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .terminal-window {
-      width: 90%;
-      height: 80vh;
+      height: 120vw;
       font-size: 10pt;
     }
   }
