@@ -78,7 +78,7 @@ function runScripts(data, pos) {
       $(".typed-cursor").text("");
       prompt.typed({
         strings: script.strings,
-        typeSpeed: 30,
+        typeSpeed: 50,
         callback: function () {
           var history = $(".history").html();
           history = history ? [history] : [];
